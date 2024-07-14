@@ -36,3 +36,10 @@ const myFunction = function(){
 } // function
 
 console.log(typeof myName);
+
+
+// ++++++++++++++++++++++++++ Memory ++++++++++++++++++++++++++++++++
+
+// Stack (Primitive), Heap (Non-Primitive)
+
+
