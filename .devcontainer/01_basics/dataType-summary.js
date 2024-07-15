@@ -42,4 +42,23 @@ console.log(typeof myName);
 
 // Stack (Primitive), Heap (Non-Primitive)
 
+let userName = "Udbhav"
 
+let SecondName = userName;
+SecondName = "kumar"
+
+console.log(userName);
+console.log(SecondName);
+
+let user = {
+    email : "abc@gmail.com",
+    upi :"paypal"
+}
+
+
+console.log(user.upi);
+
+let second = user
+second.email = "asdf@gmail.com"
+console.log(second.email);
+console.log(user.email);
